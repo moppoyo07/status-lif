@@ -1,5 +1,5 @@
-const LIFF_ID = 'YOUR_LIFF_ID_HERE'; // ここにあなたのLIFF IDを入れる
-const API_URL = 'YOUR_GAS_ENDPOINT_URL'; // ここにGASのデプロイURLを入れる
+const LIFF_ID = 'https://miniapp.line.me/2007160897-REy3nXeW'; // ここにあなたのLIFF IDを入れる
+const API_URL = 'https://script.google.com/macros/s/AKfycbz4-wzdz9scjTho5DirBcNzZSLSaH7jYjkoKNdA7PBkPBAjZsEVj0vPYcqZBOtREWO2/exec'; // ここにGASのデプロイURLを入れる
 
 window.onload = function () {
   liff.init({ liffId: LIFF_ID })
